@@ -1,0 +1,29 @@
+/* {
+    border: 1px solid red;
+}*/
+body {
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    margin: 0 20%;
+}
+#general {
+
+}
+#contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+table th {
+    text-align: left;
+}
+h1 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+#biographi {
+    display: flex;
+    }

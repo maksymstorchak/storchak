@@ -1,0 +1,33 @@
+/* {
+    border: 1px solid red;
+}*/
+body {
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    flex-direction: column;
+    margin: 0 20%;
+}
+#about {
+    display: flex;
+    flex-direction: row;
+}
+.nomers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-grow:  1;
+    justify-content: flex-end;
+}
+#links div {
+    margin-left: 2px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    }
